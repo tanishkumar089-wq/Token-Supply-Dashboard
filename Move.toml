@@ -1,0 +1,15 @@
+[package]
+name = "Token_Supply_Dashboard"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x0d1c0e4e828f7c6d7a63844492f5139c62da0f3380e6b8297ab18567b396db96"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
